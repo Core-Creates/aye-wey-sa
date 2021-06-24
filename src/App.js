@@ -64,10 +64,17 @@ function App() {
   return (
     <Router>
       <div>
-        <Navbar />
-        <Route exact path="/" component={Home} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route path="/contact" component={Contact} />
+      <Route exact path="/" component={Home}/>
+      <Route exact path="/Parks" component={Parks}/>
+      <Route exact path="/Historical" component={Historical}/>
+      <Route exact path="/Museums" component={Museums}/>
+      <Route exact path="/Libraries" component={Libraries}/>
+      <Route exact path="/Art_Galleries" component={Art_Galleries}/>
+      <Route exact path="/Hiking" component={Hiking}/>
+      <Route exact path="/Theater" component={Theater}/>
+      <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
+      <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
+      <Route exact path="/Special_Events" component={Special_Events}/>
       </div>
     </Router>
   );
