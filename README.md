@@ -35,7 +35,9 @@ So that I can choose the activity of my liking
 
 Corrina Alcoser
 Chris Goslin
+<br>
 Samuel Cordova
+<br>
 BootCamp Spot- University of Texas at San Antonio
  
 # Github Profile
@@ -43,11 +45,14 @@ BootCamp Spot- University of Texas at San Antonio
 
 [GitHub-Core-Creates](https://github.com/core-creates)
 [GitHub-CGO7](https://github.com/CGO7)
+<br>
 [GitHub- Cordo]()
 
 # Email
 <br>
 
 [Corrina.Email]()
+<br>
 [cgoslin7@gmail.com](mailto:cgoslin7@gmail.com)
+<br>
 [Cordo.Email]()
