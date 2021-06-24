@@ -34,20 +34,27 @@ So that I can choose the activity of my liking
 <br>
 
 Corrina Alcosar
+<br>
 Chris Goslin
+<br>
 Samuel Cordova
+<br>
 BootCamp Spot- University of Texas at San Antonio
  
 # Github Profile
 <br>
 
 [GitHub-Corrina]()
+<br>
 [GitHub-CGO7](https://github.com/CGO7)
+<br>
 [GitHub- Cordo]()
 
 # Email
 <br>
 
 [Corrina.Email]()
+<br>
 [cgoslin7@gmail.com](mailto:cgoslin7@gmail.com)
+<br>
 [Cordo.Email]()
