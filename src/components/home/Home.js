@@ -2,11 +2,11 @@ import React, {Component} from 'react';
 import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
 import Carousel from '../carousel/Carousel'
-// import todos from "need to figure out api importing"
+import todos from '../footer/footer'
 
 class Home extends Component {
     state= {
-      projects
+      todos
     };
   
     render() {
