@@ -25,17 +25,17 @@ import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
-import Home from "./components/Home";
-import Parks from "./components/Parks";
-import Historical from "./components/Historical";
-import Museums from "./components/Museum";
-import Libraries from "./components/Libraries";
-import Art_Galleries from "./components/Art_Galleries";
-import Hiking from "./components/Hiking";
-import Theater from "./components/Theater";
-import Tourist_Attractions from "./components/Tourist_Attractions";
-import Entertainment_Venues from "./components/Entertainment_Venues";
-import Special_Events from "./components/Special_Events";
+import Home from "./components/home/Home";
+import Parks from "./components/parks/Parks";
+import Historical from "./components/historical/Historical";
+import Museums from "./components/museums/Museums";
+import Libraries from "./components/libraries/Libraries";
+import Art_Galleries from "./components/art_galleries/Art_Galleries";
+import Hiking from "./components/hiking/Hiking";
+import Theater from "./components/theater/Theater";
+import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractionss";
+import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
+import Special_Events from "./components/special_events/Special_Events";
 
 import ReactDOM from 'react-dom';
 

@@ -22,7 +22,7 @@ fetch(url)
      localStorage.setItem("todo",document.getElementById("card-input").value);
 
     var todoEl = response.CommonName
-    $("#keyword").html(todoEl); 
+    // $("#keyword").html(todoEl);   Can JSON not be used? 
     })
 
 }
