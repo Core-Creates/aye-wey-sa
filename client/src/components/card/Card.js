@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-function ProjectCard(props) {
+function TodoCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -13,7 +13,7 @@ function ProjectCard(props) {
             <strong></strong> {props.title}
           </li>
           <li>
-            <strong></strong> {props.author}
+            <strong></strong> {props.info}
           </li>
         </ul>
       </div>
@@ -22,4 +22,4 @@ function ProjectCard(props) {
   );
 }
 
-export default ProjectCard;
+export default TodoCard;
