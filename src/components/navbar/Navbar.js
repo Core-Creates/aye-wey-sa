@@ -50,31 +50,7 @@ class Navbar extends Component {
     );
   }}
                     
-      {/* //   <div className={`navbar-menu`}>
-      //     <div className="navbar-start" className >
-      //       <NavLink className="navbar-item" activeClassName="is-active" to="/" exact>
-      //         Home
-      //       </NavLink>
-
-      //       <NavLink */}
-      {/* //         className="navbar-item"
-      //         activeClassName="is-active"
-      //         to="/museums"
-      //         exact
-      //       >
-      //         Link
-      //       </NavLink>
-
-      //       <NavLink */}
-      {/* //         className="navbar-item"
-      //         activeClassName="is-active"
-      //         to="/art_galleries"
-      //         exact
-      //       >
-      //         Link
-      //       </NavLink>
-      //     </div>
-      // </div>      */}
+      
   
 
 export default Navbar;
