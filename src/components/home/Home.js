@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import TodoCard from '../card/Card';
+// import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
-import Carousel from '../carousel/Carousel'
+// import Carousel from '../carousel/Carousel'
 import todos from '../footer/footer'
 
 class Home extends Component {
@@ -12,15 +12,15 @@ class Home extends Component {
     render() {
       return (
         <Wrapper>
-            <Carousel/>
+            {/* <Carousel/>
           {this.state.todos.map(todo => (
             <TodoCard
               id={todo.id}
               title={todo.title}
               image={todo.image}
-              author={todo.info}
-            />
-          ))}
+              author={todo.info} */}
+            {/* />
+          ))} */}
         </Wrapper> 
       );
     }
