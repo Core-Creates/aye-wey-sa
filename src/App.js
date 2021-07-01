@@ -37,11 +37,17 @@ import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attrac
 import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
 import Special_Events from "./components/special_events/Special_Events";
 import ReactDOM from 'react-dom';
+import Particles from 'react-particles-js';
+import Header from './components/header/Header'
+
+
 
 
 
 ReactDOM.render(
   <Router>
+        <Header />
+
     <Navbar/>
      <Switch>
       <Route exact path="/" component={Home}/>
@@ -63,6 +69,29 @@ ReactDOM.render(
 
 function App() {
   return (
+    <>
+    <Particles
+    className="particles-canvas"
+    params={{
+      particles: {
+        number: {
+          value: 35,
+          density: {
+            enable: true,
+            value_area: 900
+          }
+        },
+        shape: {
+          type: "star",
+          stroke: {
+            width: 10,
+            color: "rgb(118, 41, 190)"
+          }
+        }
+      }
+    }} />
+    
+    
     <Router>
       <div>
       <Navbar/>
@@ -79,6 +108,7 @@ function App() {
       <Route exact path="/Special_Events" component={Special_Events}/>
       </div>
     </Router>
+    </>
   );
 }
 
