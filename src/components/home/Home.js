@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import TodoCard from '../card/Card';
+// import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
-import Carousel from '../carousel/Carousel';
-import todos from '../footer/footer';
+// import Carousel from '../carousel/Carousel'
+import todos from '../footer/footer'
 
 class Home extends Component {
     // state= {
@@ -18,8 +18,8 @@ class Home extends Component {
               id={todo.id}
               title={todo.title}
               image={todo.image}
-              author={todo.info}
-            />
+              author={todo.info} */}
+            {/* />
           ))} */}
         </Wrapper> 
       );
