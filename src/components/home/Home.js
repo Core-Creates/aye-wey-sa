@@ -5,14 +5,14 @@ import Carousel from '../carousel/Carousel'
 import todos from '../footer/footer'
 
 class Home extends Component {
-    state= {
-      todos
-    };
+    // state= {
+    //   todos
+    // };
   
     render() {
       return (
         <Wrapper>
-            <Carousel/>
+            {/* <Carousel/>
           {this.state.todos.map(todo => (
             <TodoCard
               id={todo.id}
@@ -20,7 +20,7 @@ class Home extends Component {
               image={todo.image}
               author={todo.info}
             />
-          ))}
+          ))} */}
         </Wrapper> 
       );
     }
