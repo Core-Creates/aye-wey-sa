@@ -13,16 +13,17 @@ class Home extends Component {
     render() {
       return (
         <Wrapper>
-            {/* <Carousel/>
+            {/* <Carousel>
           {this.state.todos.map(todo => (
             <TodoCard
               id={todo.id}
               title={todo.title}
               image={todo.image}
-              author={todo.info} */}
-            {/* />
+              author={todo.info} 
+            />
           ))} */}
-        </Wrapper> 
+          {/* <Carousel/> */}
+        </Wrapper>
       );
     }
   }
