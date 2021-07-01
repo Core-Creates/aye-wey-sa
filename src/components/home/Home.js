@@ -6,23 +6,24 @@ import Wrapper from '../wrapper/Wrapper';
 import todos from '../footer/footer'
 
 class Home extends Component {
-    // state= {
-    //   todos
-    // };
+    state= {
+      todos
+    };
   
     render() {
       return (
         <Wrapper>
-            {/* <Carousel/>
+            {/* <Carousel>
           {this.state.todos.map(todo => (
             <TodoCard
               id={todo.id}
               title={todo.title}
               image={todo.image}
-              author={todo.info} */}
-            {/* />
+              author={todo.info} 
+            />
           ))} */}
-        </Wrapper> 
+          {/* <Carousel/> */}
+        </Wrapper>
       );
     }
   }
