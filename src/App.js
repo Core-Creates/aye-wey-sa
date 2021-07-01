@@ -42,8 +42,8 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <Router>
+    <Navbar/>
      <Switch>
-      <Navbar/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -65,6 +65,7 @@ function App() {
   return (
     <Router>
       <div>
+      <Navbar/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
