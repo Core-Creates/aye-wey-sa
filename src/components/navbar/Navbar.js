@@ -1,6 +1,6 @@
 // export default Navbar;
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 class Navbar extends Component {
@@ -14,7 +14,7 @@ class Navbar extends Component {
                   <p className="title" id="searchTitle">Search</p>
                   <div id="searchBox">
                   <div className="field is-grouped">
-                            <input className="input" type="text" placeholder="City" id="cityInput"> </input>
+                            {/* <input className="input" type="text" placeholder="City" id="cityInput"> </input> */}
                             <button className="button" id="searchBtn">
                                 <span className="icon">
                                     <svg className="svg-inline--fa fa-search-location fa-w-16" aria-hidden="true"
@@ -49,8 +49,6 @@ class Navbar extends Component {
             </div>
     );
   }}
-                    
-      
-  
+                
 
 export default Navbar;
