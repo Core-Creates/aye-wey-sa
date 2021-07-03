@@ -34,6 +34,7 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
+                                <button className="button is-info" id="tourism">Sign-In</button>
                             </div>
                         </nav>
                     </div>
