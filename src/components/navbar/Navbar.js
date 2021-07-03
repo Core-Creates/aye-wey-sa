@@ -2,12 +2,16 @@
 import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import Modal from "react-modal";
+import { Modal } from 'react-responsive-modal';
+import 'react-responsive-modal/styles.css';
+
+import ModalInClassComponents from '../modal/ModalInClassComponents';
+
 
 class Navbar extends Component {
     render() {
-        let modalIsOpen;
-        this.state = { modalIsOpen: false };
+
+        
 
         return (
             <aside>
@@ -38,20 +42,14 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
-                                {/* Login modal button */}
-                                <button className="" id="SigninBtn" onClick={() => 
-                                    this.setState({ modalIsOpen: true })}>
-                                        Sign-In
-                                    </button>
-                                <Modal isOpen={modalIsOpen}>
-                                    <h2>Sign-In</h2>
-                                </Modal>
+                                <ModalInClassComponents></ModalInClassComponents>
                             </div>
                         </nav>
                     </div>
                 </div>
             </aside>
         );
+    
     }
 }
 
