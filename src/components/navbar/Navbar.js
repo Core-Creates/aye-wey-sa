@@ -6,7 +6,8 @@ import Modal from "react-modal";
 
 class Navbar extends Component {
     render() {
-        const [modalIsOpen, setModalIsOpen] = useState(false)
+        let modalIsOpen;
+        this.state = { modalIsOpen: false };
 
         return (
             <aside>
@@ -38,20 +39,12 @@ class Navbar extends Component {
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
                                 {/* Login modal button */}
-                                <button className="" id="SigninBtn" onClick={() => setModalIsOpen(true)}>Sign-In</button>
+                                <button className="" id="SigninBtn" onClick={() => 
+                                    this.setState({ modalIsOpen: true })}>
+                                        Sign-In
+                                    </button>
                                 <Modal isOpen={modalIsOpen}>
                                     <h2>Sign-In</h2>
-                                    <form>
-                                        <label>
-                                            UserName:
-                                            <input type="text" name="name" />
-                                        </label>
-                                        <label>
-                                            Password:
-                                            <input type="text" name="name" />
-                                        </label>
-                                        <input type="submit" value="Submit" />
-                                    </form>
                                 </Modal>
                             </div>
                         </nav>
