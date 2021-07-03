@@ -38,10 +38,20 @@ class Navbar extends Component {
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
                                 {/* Login modal button */}
-                                <button className="" id="SigninBtn" onClick={()=> setModalIsOpen(true)}>Sign-In</button>
+                                <button className="" id="SigninBtn" onClick={() => setModalIsOpen(true)}>Sign-In</button>
                                 <Modal isOpen={modalIsOpen}>
                                     <h2>Sign-In</h2>
-                                    <p>Modal Body</p>
+                                    <form>
+                                        <label>
+                                            UserName:
+                                            <input type="text" name="name" />
+                                        </label>
+                                        <label>
+                                            Password:
+                                            <input type="text" name="name" />
+                                        </label>
+                                        <input type="submit" value="Submit" />
+                                    </form>
                                 </Modal>
                             </div>
                         </nav>
