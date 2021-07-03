@@ -2,9 +2,12 @@
 import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import Modal from "react-modal";
 
 class Navbar extends Component {
     render() {
+        const [modalIsOpen, setModalIsOpen] = useState(false)
+
         return (
             <aside>
                 <div className="container">
@@ -34,7 +37,12 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
-                                <button className="button is-info" id="tourism">Sign-In</button>
+                                {/* Login modal button */}
+                                <button className="" id="SigninBtn" onClick={()=> setModalIsOpen(true)}>Sign-In</button>
+                                <Modal isOpen={modalIsOpen}>
+                                    <h2>Sign-In</h2>
+                                    <p>Modal Body</p>
+                                </Modal>
                             </div>
                         </nav>
                     </div>
