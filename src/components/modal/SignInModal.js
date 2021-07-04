@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Modal } from 'react-responsive-modal';
-// import 'react-responsive-modal/styles.css';
+import 'react-responsive-modal/styles.css';
 import './modal.css';
 
 

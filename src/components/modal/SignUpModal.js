@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Modal } from 'react-responsive-modal';
-// import 'react-responsive-modal/styles.css';
+import 'react-responsive-modal/styles.css';
 import './modal.css';
 
 
@@ -24,7 +24,7 @@ class SignUpModal extends Component {
             <div>
                 <button onClick={this.onClickButton}>Sign-in</button>
                 <Modal open={this.state.openModal} onClose={this.onCloseModal}>
-                    <h1>Sign-in</h1>
+                    <h1>Sign-Up</h1>
                 </Modal>   
             </div>
         )
