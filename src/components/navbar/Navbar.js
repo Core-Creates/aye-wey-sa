@@ -2,10 +2,9 @@
 import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import { Modal } from 'react-responsive-modal';
-import 'react-responsive-modal/styles.css';
 
-import ModalInClassComponents from '../modal/ModalInClassComponents';
+import SignInModal from "../modal/SignInModal";
+import SignUpModal from "../modal/SignUpModal";
 
 
 class Navbar extends Component {
@@ -42,7 +41,8 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
-                                <ModalInClassComponents></ModalInClassComponents>
+                                <SignInModal></SignInModal>
+                                <SignUpModal></SignUpModal>
                             </div>
                         </nav>
                     </div>

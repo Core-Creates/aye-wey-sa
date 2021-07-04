@@ -4,7 +4,7 @@ import { Modal } from 'react-responsive-modal';
 import './modal.css';
 
 
-class ModalInClassComponents extends Component {
+class SignInModal extends Component {
     state = {
         openModal: false
     }
@@ -38,4 +38,4 @@ class ModalInClassComponents extends Component {
     }
 }
 
-export default ModalInClassComponents;
+export default SignInModal;
