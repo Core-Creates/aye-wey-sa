@@ -6,9 +6,9 @@ import Wrapper from '../wrapper/Wrapper';
 import todos from '../footer/footer'
 
 class Home extends Component {
-    state= {
-      todos
-    };
+    // state= {
+    //   todos
+    // };
   
     render() {
       return (
