@@ -3,8 +3,15 @@ import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
+import SignInModal from "../modal/SignInModal";
+import SignUpModal from "../modal/SignUpModal";
+
+
 class Navbar extends Component {
     render() {
+
+        
+
         return (
             <aside>
                 <div className="container">
@@ -34,12 +41,15 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
+                                <SignInModal></SignInModal>
+                                <SignUpModal></SignUpModal>
                             </div>
                         </nav>
                     </div>
                 </div>
             </aside>
         );
+    
     }
 }
 
