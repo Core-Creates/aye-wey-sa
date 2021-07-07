@@ -37,15 +37,11 @@ import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attrac
 import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
 import Special_Events from "./components/special_events/Special_Events";
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import Header from './components/header/Header'
+// import Modal from './Component/modal/Modal';  
 
 
-
-=======
-// import Modal from './Component/modal/Modal';
->>>>>>> 5499f05b5b2d97dc6ae88ffe9d190bf6bb97a9c6
 
 
 ReactDOM.render(
@@ -74,7 +70,7 @@ ReactDOM.render(
 function App() {
   return (
     <>
-    <Particles
+    {/* <Particles
     className="particles-canvas"
     params={{
       particles: {
@@ -93,7 +89,7 @@ function App() {
           }
         }
       }
-    }} />
+    }} /> */}
     
     
     <Router>

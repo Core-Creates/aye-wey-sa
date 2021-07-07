@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
-import Navbar from '../navbar/Navbar';
+// import { Carousel } from 'react-bootstrap';
+// import { Carousel } from 'react-bootstrap';
+// import Navbar from '../navbar/Navbar';
 // import TodoCard from '../card/Card';
-import Wrapper from '../wrapper/Wrapper';
-// import Carousel from '../carousel/Carousel'
-import todos from '../footer/footer'
+// import Wrapper from '../wrapper/Wrapper';
+import Carousel from '../carousel/Carousel';
+// import todos from '../footer/footer'
 
 class Home extends Component {
     // state= {
@@ -12,18 +14,10 @@ class Home extends Component {
   
     render() {
       return (
-        <Wrapper>
-            {/* <Carousel>
-          {this.state.todos.map(todo => (
-            <TodoCard
-              id={todo.id}
-              title={todo.title}
-              image={todo.image}
-              author={todo.info} 
-            />
-          ))} */}
-          {/* <Carousel/> */}
-        </Wrapper>
+        <div className='carousel'>
+          <Carousel></Carousel>
+        </div>
+
       );
     }
   }
