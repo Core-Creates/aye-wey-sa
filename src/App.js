@@ -1,5 +1,6 @@
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // function App() {
 //   return (
@@ -37,7 +38,7 @@ import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attrac
 import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
 import Special_Events from "./components/special_events/Special_Events";
 import ReactDOM from 'react-dom';
-// import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
 import Header from './components/header/Header'
 // import Modal from './Component/modal/Modal';  
 
@@ -70,7 +71,7 @@ ReactDOM.render(
 function App() {
   return (
     <>
-    {/* <Particles
+    <Particles
     className="particles-canvas"
     params={{
       particles: {
@@ -78,7 +79,7 @@ function App() {
           value: 35,
           density: {
             enable: true,
-            value_area: 900
+            value_area: 200
           }
         },
         shape: {
@@ -89,7 +90,7 @@ function App() {
           }
         }
       }
-    }} /> */}
+    }} />
     
     
     <Router>
