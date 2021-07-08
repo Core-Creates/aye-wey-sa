@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-import SignInModal from "../modal/SignInModal";
+import LogInModal from "../modal/LogInModal";
 import SignUpModal from "../modal/SignUpModal";
 
 
@@ -41,7 +41,7 @@ class Navbar extends Component {
                                 <br></br>
                                 <button className="button is-info" id="tourism">Tourism</button>
                                 <br></br>
-                                <SignInModal></SignInModal>
+                                <LogInModal></LogInModal>
                                 <SignUpModal></SignUpModal>
                             </div>
                         </nav>
