@@ -97,6 +97,10 @@ nav {
   margin: 0px;
   width: 100%;
 }
+
+.add {
+  background-color: #282c34;
+}
   
 #datarow {
   border: 0 solid;
