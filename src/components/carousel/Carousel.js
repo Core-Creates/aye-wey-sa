@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function App() {
 return (
-	<div style={{ display: 'block', width: 700, padding: 30 }}>
+	<div>
 	{/* <h4>Optional Header</h4> */}
 	<Carousel>
 		<Carousel.Item interval={3000}>

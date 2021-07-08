@@ -48,10 +48,12 @@ function App() {
     
     
     <Router>
-      <div>
-      <Header/>  
+    <Header/>
+    <div style= {{display: 'flex'}}>
+      <div style= {{flexGrow: 1}}>
       <Navbar/>
-      <ADD_SPACE/>
+      </div>
+      <div style= {{flexGrow: 2}}>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -63,6 +65,10 @@ function App() {
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
       <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
+      </div>
+      <div style={{flexGrow: 1}}>
+      <ADD_SPACE/>
+      </div>
       </div>
     </Router>
     </>
