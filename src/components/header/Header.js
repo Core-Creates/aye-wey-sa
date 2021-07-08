@@ -1,23 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Typed from 'react-typed';
-class Header extends Component {
-    render() {
+const Header = () => {
+    
     return (
+        <div className="row">
         <div className= "header-wrapper">
+           
             <div className= "main-info">
-    <h1>web developement and website promotions</h1>
+    <h1>Aye Wey SA</h1>
     <Typed
     className= "typed-text"
-    strings={["Web design", "Web Development", "Fullstack", "I'm A Web Wizard!!"]}
+    strings={["Your guide to all things San Antonio"]}
     typeSpeed={40}
     backSpeed={40}
     loop
     />
-    <a href="#" className="btn-main-offer">Contact Me</a>
+    
             </div>
+        </div>
         </div>
     );
     }
-}
+
 
 export default Header;

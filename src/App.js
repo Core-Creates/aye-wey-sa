@@ -2,26 +2,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
 
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -45,28 +25,7 @@ import Header from './components/header/Header'
 
 
 
-ReactDOM.render(
-  <Router>
-        <Header />
 
-    <Navbar/>
-     <Switch>
-      <Route exact path="/" component={Home}/>
-      <Route exact path="/Parks" component={Parks}/>
-      <Route exact path="/Historical" component={Historical}/>
-      <Route exact path="/Museums" component={Museums}/>
-      <Route exact path="/Libraries" component={Libraries}/>
-      <Route exact path="/Art_Galleries" component={Art_Galleries}/>
-      <Route exact path="/Hiking" component={Hiking}/>
-      <Route exact path="/Theater" component={Theater}/>
-      <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
-      <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
-      <Route exact path="/Special_Events" component={Special_Events}/>
- 
-    </Switch>
-  </Router>,
-  document.getElementById('root')
-);
 
 function App() {
   return (
@@ -79,7 +38,7 @@ function App() {
           value: 35,
           density: {
             enable: true,
-            value_area: 200
+            value_area: 220
           }
         },
         shape: {
@@ -94,7 +53,8 @@ function App() {
     
     
     <Router>
-      <div>
+     
+        <Header />
       <Navbar/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
@@ -107,7 +67,7 @@ function App() {
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
       <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
-      </div>
+      
     </Router>
     </>
   );
