@@ -1,10 +1,7 @@
-
-import './App.css';
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Parks from "./components/parks/Parks";
@@ -17,14 +14,12 @@ import Theater from "./components/theater/Theater";
 import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractionss";
 import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
 import Special_Events from "./components/special_events/Special_Events";
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import Particles from 'react-particles-js';
-import Header from './components/header/Header'
-// import Modal from './Component/modal/Modal';  
-
-
-
-
+// import Modal from './Component/modal/Modal'; 
+import ADD_SPACE from './components/add_Space/Add_Space'; 
+// import add from './add.json';
+import Header from './components/header/Header';
 
 
 function App() {
@@ -38,7 +33,7 @@ function App() {
           value: 35,
           density: {
             enable: true,
-            value_area: 220
+            value_area: 200
           }
         },
         shape: {
@@ -53,9 +48,10 @@ function App() {
     
     
     <Router>
-     
-        <Header />
+      <div>
+      <Header/>  
       <Navbar/>
+      <ADD_SPACE/>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -67,7 +63,7 @@ function App() {
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
       <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
-      
+      </div>
     </Router>
     </>
   );
