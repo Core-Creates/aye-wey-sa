@@ -30,7 +30,7 @@ import Header from './components/header/Header'
 function App() {
   return (
     <>
-    <Particles
+    {/* <Particles
     className="particles-canvas"
     params={{
       particles: {
@@ -49,13 +49,19 @@ function App() {
           }
         }
       }
-    }} />
+    }} /> */}
     
     
     <Router>
      
         <Header />
+        <div style={{display:"flex"}}>
+        <div style={{flexGrow: 0}}>
       <Navbar/>
+      </div>
+      <div style={{flexGrow: 3}}>
+    
+      
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -67,7 +73,9 @@ function App() {
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
       <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
-      
+      <Route exact path="/Home" component={Home}/>
+      </div>
+      </div>
     </Router>
     </>
   );
