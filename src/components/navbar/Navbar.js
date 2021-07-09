@@ -3,7 +3,7 @@ import React, { Component } from "react";
 // import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
-import SignInModal from "../modal/SignInModal";
+import LogInModal from "../modal/LogInModal";
 import SignUpModal from "../modal/SignUpModal";
 
 
