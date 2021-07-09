@@ -43,5 +43,16 @@ export default class Art_Galleries extends Component {
   }
 }
 
-
-// export default Art_Galleries;
+// var data = {
+//   resource_id: '6d75f6d1-9ff0-48f1-b11b-4904ecebbcfa', // the resource id
+//   limit: 5, // get 5 results
+//   q: 'jones' // query for 'jones'
+// };
+// $.ajax({
+//   url: 'https://data.sanantonio.gov/api/3/action/datastore_search',
+//   data: data,
+//   dataType: 'jsonp',
+//   success: function(data) {
+//     alert('Total results found: ' + data.result.total)
+//   }
+// });

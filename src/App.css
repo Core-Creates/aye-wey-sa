@@ -2,16 +2,87 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-wrapper {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(yes.jpg) no-repeat;
+  padding: 0px;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+
+}
+
+.main-info h1 {
+color: rgb(123, 32, 241);
+text-transform: uppercase;
+-webkit-text-stroke: 1.2px rgb(32, 2, 32);
+padding-bottom: 0rem;
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important
   }
 }
+
+
+/* ----------TYPED TEXT------------- */
+
+.typed-text {
+  font-size: 2rem;
+  color: #fff;
+  -webkit-text-stroke: 1.5px rgb(32, 2, 32);
+
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important
+  }
+  .typed-text {
+    font-size: 1.3rem !important
+  }
+}
+
+
+
+/* ---------PARTICLE JS---------- */
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 90vh;
+  width: 100vw;
+  z-index: 1;
+  color:rgb(118, 41, 190);
+  padding-bottom: 0rem;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}
+
+nav {
+  z-index: 2;
+  border: 0.1875rem;
+} 
 
 .App-header {
   background-color: #282c34;
@@ -22,17 +93,13 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.add {
+  background-color: #282c34;
 }
+  
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
