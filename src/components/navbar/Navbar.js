@@ -10,16 +10,19 @@ import Carousel from '../carousel/Carousel'
 const Navbar = () => {
   const navItems = ["Home", "Art",  "Hiking", "Historical", "Libraries", "Museums", "Parks", "Special_Events", "Theatre", "Tourist_Attractions", "Entertainment_Venue"]
   return (
+   
     <ul className= "nav flex-column nav-pills nav-justified">
       {navItems.map(e => {return(
 
         <NavLink exact to={"/"+e}>
-          <li className= "nav-item">
+          <div></div>
+          <li className= "nav-item" id="buttons">
           {e}
           </li>
         </NavLink>
       )})}
     </ul>
+  
    
   )
 }

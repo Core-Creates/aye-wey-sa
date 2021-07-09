@@ -76,7 +76,7 @@ function App() {
       <Route exact path="/Special_Events" component={Special_Events}/>
       <Route exact path="/Home" component={Home}/>
       </div>
-      <div style={{flexGrow: 1}}>
+      <div style={{flexGrow: 4}}>
       <ADD_SPACE/>
       </div>
       </div>

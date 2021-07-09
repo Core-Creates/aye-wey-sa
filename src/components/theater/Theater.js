@@ -11,14 +11,15 @@ class Theater extends Component {
     render() {
       return (
         <Wrapper>
-          {this.state.todos.map(todo => (
+          {/* {this.state.todos.map(todo => (
             <TodoCard
               id={todo.id}
               title={todo.title}
               image={todo.image}
               author={todo.info}
             />
-          ))}
+          ))} */}
+          <div>this is the theatre tab</div>
         </Wrapper> 
       );
     }
