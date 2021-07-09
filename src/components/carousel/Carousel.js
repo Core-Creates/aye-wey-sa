@@ -4,10 +4,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function App() {
 return (
-	<div style={{ display: 'block', width: 700, padding: 30 }}>
+	<div>
 	{/* <h4>Optional Header</h4> */}
 	<Carousel>
-		<Carousel.Item interval={1500}>
+		<Carousel.Item interval={3000}>
 		<img
 			className="d-block w-100"
 src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png"
@@ -18,7 +18,7 @@ src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115
 			<p>Sample Text for Image One</p>
 		</Carousel.Caption>
 		</Carousel.Item>
-		<Carousel.Item interval={500}>
+		<Carousel.Item interval={3000}>
 		<img
 			className="d-block w-100"
 src="https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png"
