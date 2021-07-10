@@ -10,10 +10,10 @@ function TodoCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong></strong> {props.title}
+            <strong></strong>{props.title}
           </li>
           <li>
-            <strong></strong> {props.info}
+            <strong></strong>{props.info}
           </li>
         </ul>
       </div>
