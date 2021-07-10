@@ -19,7 +19,7 @@ export default class Art_Galleries extends Component {
 
   render() {
     return (
-      <div>
+      <div id="art">
         {this.state.loading || !this.state.person ? (
           <div>loading...</div>
         ) : (

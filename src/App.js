@@ -48,7 +48,6 @@ function App() {
     
     
     <Router>
-
      
         <Header />
         <div style={{display:"flex"}}>
@@ -58,13 +57,12 @@ function App() {
       <div style={{flexGrow: 3}}>
     
       
-=======
-//     <Header/>
+{/* //     <Header/>
 //     <div style= {{display: 'flex'}}>
 //       <div style= {{flexGrow: 1}}>
 //       <Navbar/>
 //       </div>
-//       <div style= {{flexGrow: 2}}>
+//       <div style= {{flexGrow: 2}}> */}
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -80,15 +78,13 @@ function App() {
       <Route exact path="/Home" component={Home}/>
 =======
       </div>
-      <div style={{flexGrow: 1}}>
+      <div style={{flexGrow: 4}}>
       <ADD_SPACE/>
-
       </div>
       </div>
     </Router>
     </>
   );
 }
-
-
+//  lorem loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem 
 export default App;
