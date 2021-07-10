@@ -1,7 +1,6 @@
 #carousel-container {
-    margin: 25px auto 0px auto;
-    max-width: 940px;
-}
+    margin: 10%;
+} 
 .carousel-inner {
     border-top: 10px;
     border-left: 10px;
