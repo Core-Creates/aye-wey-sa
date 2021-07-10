@@ -15,7 +15,9 @@ class Home extends Component {
     render() {
       return (
         <div className='carousel'>
+          <div style={{margin:'10px'}}>
           <Carousel></Carousel>
+        </div>
         </div>
 
       );
