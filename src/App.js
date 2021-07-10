@@ -1,3 +1,4 @@
+  
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
@@ -51,18 +52,10 @@ function App() {
      
         <Header />
         <div style={{display:"flex"}}>
-        <div style={{flexGrow: 0}}>
+        <div style={{flexGrow: 1}}>
       <Navbar/>
       </div>
       <div style={{flexGrow: 3}}>
-    
-      
-{/* //     <Header/>
-//     <div style= {{display: 'flex'}}>
-//       <div style= {{flexGrow: 1}}>
-//       <Navbar/>
-//       </div>
-//       <div style= {{flexGrow: 2}}> */}
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -74,11 +67,9 @@ function App() {
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
       <Route exact path="/Entertainment_Venues" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
-
       <Route exact path="/Home" component={Home}/>
-
       </div>
-      <div style={{flexGrow: 4}}>
+      <div style={{flexGrow: 1}}>
       <ADD_SPACE/>
       </div>
       </div>
