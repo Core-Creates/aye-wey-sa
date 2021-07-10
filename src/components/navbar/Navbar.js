@@ -8,7 +8,7 @@ import SignUpModal from "../modal/SignUpModal";
 import Carousel from '../carousel/Carousel'
 
 const Navbar = () => {
-  const navItems = ["Home", "Art_Galleries",  "Hiking", "Historical", "Libraries", "Museums", "Parks", "Special_Events", "Theater", "Tourist_Attractions", "Entertainment_Venues"]
+  const navItems = ["Home", "Art",  "Hiking", "Historical", "Libraries", "Museums", "Parks", "Special_Events", "Theater", "Tourist_Attractions", "Entertainment"]
   return (
    
     <ul className= "nav flex-column nav-pills nav-justified">
