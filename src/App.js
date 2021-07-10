@@ -8,7 +8,7 @@ import Parks from "./components/parks/Parks";
 import Historical from "./components/historical/Historical";
 import Museums from "./components/museums/Museums";
 import Libraries from "./components/libraries/Libraries";
-import Art_Galleries from "./components/art_galleries/Art_Galleries";
+import Art_Galleries from "./components/art_galleries/Art";
 import Hiking from "./components/hiking/Hiking";
 import Theater from "./components/theater/Theater";
 import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractionss";
@@ -68,15 +68,15 @@ function App() {
       <Route exact path="/Historical" component={Historical}/>
       <Route exact path="/Museums" component={Museums}/>
       <Route exact path="/Libraries" component={Libraries}/>
-      <Route exact path="/Art_Galleries" component={Art_Galleries}/>
+      <Route exact path="/Art" component={Art_Galleries}/>
       <Route exact path="/Hiking" component={Hiking}/>
       <Route exact path="/Theater" component={Theater}/>
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
-      <Route exact path="/Entertanment_Venue" component={Entertainment_Venues}/>
+      <Route exact path="/Entertainment_Venues" component={Entertainment_Venues}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
 
       <Route exact path="/Home" component={Home}/>
-=======
+
       </div>
       <div style={{flexGrow: 4}}>
       <ADD_SPACE/>
