@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Movin On Up",
+      "image": "images/softwareTeam.PNG",
+      "author": "Chris Goslin, Samuel Cordova"
+    },
+    {
+       "id": 2,
+       "title": "Software Team Page",
+       "image": "images/softwareTeam.PNG",
+       "author": "Chris Goslin"
+    },
+    {
+       "id": 3,
+       "title": "ReadMe Generator",  
+       "image": "images/readMe.PNG",
+       "author": "Chris Goslin,"
+    },
+    {
+       "id": 4,
+       "title": "Patient Tracker",
+       "image": "images/patient.PNG",
+       "author": "Chris Goslin"
+    },
+    {
+       "id": 5,
+       "title": "Password Generator",
+       "image": "images/PasswordGenerator.PNG",
+       "author": "Chris Goslin"
+    },
+    {
+       "id": 6,
+       "title": "Horriseon Accessibility",
+       "image": "images/horriseon.PNG",
+       "author": "Chris Goslin"
+    }
+]

@@ -3,6 +3,7 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
+    <div className= "col col-md-4">
     <div className="card">
       <div className="img-container">
         <img alt={props.image} src={props.image} />
@@ -10,13 +11,14 @@ function TodoCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong></strong> {props.title}
+            <strong></strong>{props.title}
           </li>
           <li>
-            <strong></strong> {props.info}
+            <strong></strong>{props.info}
           </li>
         </ul>
       </div>
+    </div>
     </div>
   
   );
