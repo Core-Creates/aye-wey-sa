@@ -17,6 +17,7 @@ function TodoCard(props) {
           </li>
         </ul>
       </div>
+      <div classname='mapArea'></div>
     </div>
   
   );
