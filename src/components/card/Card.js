@@ -3,6 +3,7 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
+    <div className= "col col-md-4">
     <div className="card">
       <div className="img-container">
         <img alt={props.image} src={props.image} />
@@ -22,6 +23,7 @@ function TodoCard(props) {
         </div>
       </div>
       <div classname='mapArea'></div>
+    </div>
     </div>
   
   );

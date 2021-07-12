@@ -18,6 +18,7 @@ class Home extends Component {
           <div style={{margin:'10px'}}>
           <Carousel></Carousel>
           <Wrapper>
+          {/* <div style={{width: '50%'}}> */}
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
@@ -26,7 +27,10 @@ class Home extends Component {
               snippet={project.snippet}
             />
           ))}
-          </Wrapper>          
+          {/* </div> */}
+          </Wrapper>
+          
+          
         </div>
         </div>
       
