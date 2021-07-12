@@ -1,9 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Card.css";
 
 function TodoCard(props) {
   return (
-    <div className= "col col-md-6">
+    <NavLink exact to={"/" + props.link}>
     <button className="card">
       <div className="content">
         {/* <ul>
@@ -18,10 +19,10 @@ function TodoCard(props) {
         <h4>{props.title}</h4>
         <p>{props.snippet}</p>
         </div>
-        </div>
       <div classname='mapArea'></div>
+      </div>
     </button>
-    </div>
+    </NavLink>
   
   );
 }
