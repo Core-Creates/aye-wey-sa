@@ -2,23 +2,25 @@ import React, {Component} from 'react';
 import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
 // import todos from '../footer/footer';  this is where we will need to import different API's
+import projects from '../add.json';
+
 
 class Museums extends Component {
     state= {
-    //   todos
+  projects
     };
   
     render() {
       return (
         <Wrapper>
-          {/* {this.state.todos.map(todo => (
+           {this.state.projects.map(project => (
             <TodoCard
-              id={todo.id}
-              title={todo.title}
-              image={todo.image}
-              author={todo.info}
-            /> */}
-          {/* ))} */}
+              id={project.id}
+              title={project.title}
+              image={project.image}
+              author={project.author}
+            />
+            ))}
           <div>this is the museums page</div>
         </Wrapper> 
       );
