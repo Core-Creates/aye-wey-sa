@@ -15,10 +15,8 @@ class Home extends Component {
     render() {
       return (
         <div className='carousel'>
-          <div style={{margin:'10px'}}>
           <Carousel></Carousel>
           <Wrapper>
-          {/* <div style={{width: '50%'}}> */}
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
@@ -27,11 +25,7 @@ class Home extends Component {
               snippet={project.snippet}
             />
           ))}
-          {/* </div> */}
           </Wrapper>
-          
-          
-        </div>
         </div>
       
 

@@ -3,11 +3,8 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
-    <div className= "col col-md-4">
-    <div className="card">
-      <div className="img-container">
-        <img alt={props.image} src={props.image} />
-      </div>
+    <div className= "col col-md-6">
+    <button className="card">
       <div className="content">
         {/* <ul>
           <li>
@@ -21,9 +18,9 @@ function TodoCard(props) {
         <h4>{props.title}</h4>
         <p>{props.snippet}</p>
         </div>
-      </div>
+        </div>
       <div classname='mapArea'></div>
-    </div>
+    </button>
     </div>
   
   );

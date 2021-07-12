@@ -8,6 +8,7 @@ return (
 	<div id="carousel-container">
 		<div className="carousel-inner">
 		<div style={{height:'500px'}}>
+	
 	<Carousel>
 		
 		<Carousel.Item interval={3000}>
