@@ -13,7 +13,7 @@ import Art_Galleries from "./components/art_galleries/Art";
 import Hiking from "./components/hiking/Hiking";
 import Theater from "./components/theater/Theater";
 import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractionss";
-import Entertainment_Venues from "./components/entertainment_venues/Entertainment_Venues";
+import Entertainment from "./components/entertainment_venues/Entertainment";
 import Special_Events from "./components/special_events/Special_Events";
 // import ReactDOM from 'react-dom';
 import Particles from 'react-particles-js';
@@ -65,7 +65,7 @@ function App() {
       <Route exact path="/Hiking" component={Hiking}/>
       <Route exact path="/Theater" component={Theater}/>
       <Route exact path="/Tourist_Attractions" component={Tourist_Attractions}/>
-      <Route exact path="/Entertainment_Venues" component={Entertainment_Venues}/>
+      <Route exact path="/Entertainment" component={Entertainment}/>
       <Route exact path="/Special_Events" component={Special_Events}/>
       <Route exact path="/Home" component={Home}/>
       </div>
