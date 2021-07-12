@@ -24,7 +24,7 @@ class Home extends Component {
               id={project.id}
               title={project.title}
               image={project.image}
-              author={project.author}
+              snippet={project.snippet}
             />
           ))}
           {/* </div> */}
@@ -33,6 +33,7 @@ class Home extends Component {
           
         </div>
         </div>
+      
 
       );
     }
