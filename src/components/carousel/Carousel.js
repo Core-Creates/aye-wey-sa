@@ -7,7 +7,6 @@ return (
 	<div className="row">
 	<div id="carousel-container">
 		<div className="carousel-inner">
-		<div style={{height:'500px'}}>
 			
 	<Carousel>
 		
@@ -49,6 +48,6 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcfh_uB-UjsorXy2yQj5-
 	</div>
 	</div>
 	</div>
-	</div>
+
 );
 }
