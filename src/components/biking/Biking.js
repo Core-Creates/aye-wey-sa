@@ -1,15 +1,14 @@
 import { render } from "@testing-library/react";
 import React, { Component } from 'react';
-import TodoCard from '../card/Card';
-import Wrapper from '../wrapper/Wrapper';
+import "../wrapper/Wrapper";
 import projects from '../add.json';
 
 class Biking extends Component {
   state{
-  // to do
-}
-render() {
-  return (
+    projects
+  };
+  render() {
+    return (
     <div id="biking">
       <h1>Biking Trails, Lanes, and Paths</h1>
       <iframe width="700" height="400"
@@ -28,10 +27,8 @@ render() {
       </Wrapper>
 
     </div>
-
-
-  );
-}
+    );
+  }
 }
 
 export default Biking;
