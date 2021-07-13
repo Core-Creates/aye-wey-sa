@@ -7,6 +7,7 @@ class Biking extends Component {
   state{
     projects
   };
+  
   render() {
     return (
     <div id="biking">
