@@ -4,8 +4,8 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
-    <NavLink to= {'/' + props.link}>
-    <button className="card">
+    <NavLink to={'/' + props.link}>
+    <div className="card">
       <div className="content">
         <div style={{textAlign:'center'}}>
         <h4>{props.title}</h4>
@@ -13,7 +13,7 @@ function TodoCard(props) {
         </div>
       <div classname='mapArea'></div>
       </div>
-    </button>
+    </div>
     </NavLink>
   
   );

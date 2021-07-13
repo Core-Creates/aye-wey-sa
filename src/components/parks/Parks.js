@@ -16,7 +16,7 @@ class Parks extends Component {
         <iframe width="700" height="400" src="https://data.sanantonio.gov/dataset/park-trails1/resource/6d75f6d1-9ff0-48f1-b11b-4904ecebbcfa/view/b5ed02cb-6541-4065-83c3-36da41083583" frameBorder="0"></iframe>
         {this.state.projects.map(project => (
           <TodoCard
-            id={project.id}
+            link={project.link}
             title={project.title}
             image={project.image}
             author={project.author}

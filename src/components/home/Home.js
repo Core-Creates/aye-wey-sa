@@ -20,6 +20,7 @@ class Home extends Component {
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
+              link={project.link}
               title={project.title}
               image={project.image}
               snippet={project.snippet}
