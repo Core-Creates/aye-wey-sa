@@ -31,7 +31,7 @@ class Entertainment_Venues extends Component {
     return (
       <div id="Entertainment_Venues">
 
-        <h1>Entertainment Venues Page</h1>
+        
         <GoogleApiWrapper></GoogleApiWrapper>
       <Map
           google={window.google}
@@ -42,6 +42,7 @@ class Entertainment_Venues extends Component {
         >
          
         </Map>
+        <h1>Entertainment Venues Page</h1>
 
         
       </div>
