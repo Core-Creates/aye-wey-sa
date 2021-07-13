@@ -10,7 +10,8 @@ class Parks extends Component {
     
     render() {
       return (
-        <iframe width="700" height="400" src="  https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/SPark_Sites/FeatureServer/0" frameBorder="0"></iframe>
+        <iframe width="700" height="400" 
+        src="https://opendata-cosagis.opendata.arcgis.com/datasets/1c9fc1749bfb4222ab8a5d1f9728ca60_0" frameBorder="0"></iframe>
       );
     }
   }
