@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 // import { KmlLayer } from "react-google-maps";
 // import {GoogleMap,useLoadScript, Marker, InfoWindow} from '@react-google-maps/api';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
-
+import TodoCard from '../card/Card';
+import Wrapper from '../wrapper/Wrapper';
+import projects from '../add.json';
 
 // import todos from '../footer/footer';  this is where we will need to import different API's
 

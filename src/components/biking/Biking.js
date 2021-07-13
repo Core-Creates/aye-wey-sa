@@ -1,6 +1,8 @@
 import { render } from "@testing-library/react";
 import React, { Component } from 'react';
-
+import TodoCard from '../card/Card';
+import Wrapper from '../wrapper/Wrapper';
+import projects from '../add.json';
 
 class Biking extends Component {
   state{
@@ -24,7 +26,6 @@ render() {
           />
         ))}
       </Wrapper>
-
 
     </div>
 
