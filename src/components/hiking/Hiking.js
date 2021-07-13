@@ -1,17 +1,38 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
+
+// import GoogleMapReact from 'google-map-react';
+// import { GoogleMap, LoadScript } from 'react-google-maps';
 import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
 // import todos from '../footer/footer';  this is where we will need to import different API's
 import projects from '../add.json';
 
 
+
 class Hiking extends Component {
-    state= {
-  projects
-    };
-  
-    render() {
-      return (
+  state = {
+    projects
+  };
+
+  render() {
+    // const google = window.google;
+
+    const style = {
+      margin: '20px',
+      width: '55%',
+      height: '55%'
+    }
+
+    return (
+
+      <div id="hiking">
+
+
+
+        <iframe width="700px" height="400px" src="https://opendata-cosagis.opendata.arcgis.com/datasets/ed00038f9f5c44988eb38a0bafd9a227_0" frameBorder="0"></iframe>
+
+
         <Wrapper>
           {this.state.projects.map(project => (
             <TodoCard
@@ -22,10 +43,14 @@ class Hiking extends Component {
             />
           ))}
 
-        <div id="hiking">this is the hiking page</div>
-        </Wrapper> 
-      );
-    }
+          <div id="hiking">this is the hiking page</div>
+        </Wrapper>
+      </div>
+
+    );
+
+
   }
+}
 
 export default Hiking;

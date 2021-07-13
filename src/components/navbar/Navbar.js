@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 import LogInModal from "../modal/LogInModal";
 import SignUpModal from "../modal/SignUpModal";
-import Carousel from '../carousel/Carousel'
+import Carousel from '../carousel/Carousel';
 
 const Navbar = () => {
   const navItems = ["Home", "Art",  "Hiking", "Historical", "Libraries", "Museums", "Parks", "Special_Events", "Theater", "Tourist_Attractions", "Entertainment"]
