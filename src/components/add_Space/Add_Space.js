@@ -1,4 +1,6 @@
 import React from "react";
+import LogInModal from "../modal/LogInModal";
+import SignUpModal from "../modal/SignUpModal";
 // import "./Add_Space.css";
 
 function AddCard(props) {
@@ -25,9 +27,11 @@ function AddCard(props) {
                 <img alt={props.image} src='https://www.rd.com/wp-content/uploads/2019/09/GettyImages-621924830-scaled.jpg?resize=200,'></img>
             </div>
             <div className="addDetails-3">
-                <p>chris</p>
+                <p></p>
             </div>
             </div>
+            <SignUpModal></SignUpModal>
+            <LogInModal></LogInModal>
         </div>
     );
 }

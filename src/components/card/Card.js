@@ -4,17 +4,9 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
-    <NavLink exact to={"/" + props.link}>
+    <NavLink to= {'/' + props.link}>
     <button className="card">
       <div className="content">
-        {/* <ul>
-          <li>
-            <strong></strong>{props.title}
-          </li>
-          <li>
-            <strong></strong>{props.info}
-          </li>
-        </ul> */}
         <div style={{textAlign:'center'}}>
         <h4>{props.title}</h4>
         <p>{props.snippet}</p>
