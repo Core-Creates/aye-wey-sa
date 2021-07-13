@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import TodoCard from '../card/Card';
 import Wrapper from '../wrapper/Wrapper';
 // import todos from '../footer/footer';  this is where we will need to import different API's
-import TodoCard from '../card/Card';
+
 import projects from '../add.json';
 
 
