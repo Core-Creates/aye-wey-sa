@@ -7,7 +7,7 @@ return (
 	<div className="row">
 	<div id="carousel-container">
 		<div className="carousel-inner">
-		<div style={{height:'500px'}}>
+		<div style={{height:'700px'}}>
 			
 	<Carousel>
 		
@@ -15,6 +15,7 @@ return (
 		<img
 			className="d-block w-100"
 src="https://images-na.ssl-images-amazon.com/images/I/B1mLh5jQ2AS._SL1500_.jpg"
+width="700" height="700"
 			alt="Alamo"
 		/>
 		<Carousel.Caption>
@@ -27,6 +28,8 @@ src="https://images-na.ssl-images-amazon.com/images/I/B1mLh5jQ2AS._SL1500_.jpg"
 		<img
 			className="d-block w-100"
 src="https://upload.travelawaits.com/ta/uploads/2021/04/the-san-antonio-river-walk-inb5a0a4.jpg"
+id="picture"
+width="700" height="700"
 			alt="River Walk"
 		/>
 		<Carousel.Caption>
@@ -37,6 +40,8 @@ src="https://upload.travelawaits.com/ta/uploads/2021/04/the-san-antonio-river-wa
 		<Carousel.Item interval={3000}>
 		<img
 			className="d-block w-100"
+			id="picture"
+			width="700" height="700"
 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcfh_uB-UjsorXy2yQj5-u5sX7HvorcoMOzA&usqp=CAU"
 			alt="Spurs"
 		/>
