@@ -15,24 +15,19 @@ class Home extends Component {
     render() {
       return (
         <div className='carousel'>
-          <div style={{margin:'10px'}}>
           <Carousel></Carousel>
           <Wrapper>
-          {/* <div style={{width: '50%'}}> */}
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
               title={project.title}
               image={project.image}
-              author={project.author}
+              snippet={project.snippet}
             />
           ))}
-          {/* </div> */}
           </Wrapper>
-          
-          
         </div>
-        </div>
+      
 
       );
     }

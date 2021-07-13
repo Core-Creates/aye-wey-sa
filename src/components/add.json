@@ -1,38 +1,38 @@
 [
   {
-    "id": 1,
-    "title": "Movin On Up",
+    "link": "Museums",
+    "title": "Alamo",
     "image": "images/softwareTeam.PNG",
-    "author": "Chris Goslin, Samuel Cordova"
+    "snippet": "The Battle Ground for Texas"
   },
   {
      "id": 2,
-     "title": "Software Team Page",
+     "title": "San Antonio Zoo",
      "image": "images/softwareTeam.PNG",
-     "author": "Chris Goslin"
+     "snippet": "Our city zoo is located Downtown"
   },
   {
      "id": 3,
-     "title": "ReadMe Generator",  
+     "title": "Wolff Staduim",  
      "image": "images/readMe.PNG",
-     "author": "Chris Goslin,"
+     "snippet": "Home of our Missions Baseball Team,"
   },
   {
      "id": 4,
-     "title": "Patient Tracker",
+     "title": "Tower of Americas",
      "image": "images/patient.PNG",
-     "author": "Chris Goslin"
+     "snippet": "Built for the Worlds Fair"
   },
   {
      "id": 5,
-     "title": "Password Generator",
+     "title": "Mi Tierras",
      "image": "images/PasswordGenerator.PNG",
-     "author": "Chris Goslin"
+     "snippet": "24 hour Tex-Mex since forever"
   },
-  {
+  { 
      "id": 6,
-     "title": "Horriseon Accessibility",
+     "title": "River Walk",
      "image": "images/horriseon.PNG",
-     "author": "Chris Goslin"
+     "snippet": "A man made river thats gross"
   }
 ]

@@ -13,15 +13,18 @@ const Navbar = () => {
    
     <ul className= "nav flex-column nav-pills nav-justified">
       {navItems.map(e => {return(
-
+<div classname="container">
         <NavLink exact to={"/"+e}>
           <div></div>
           <li className= "nav-item" id="buttons">
           {e}
           </li>
         </NavLink>
-      )})}
+      </div>  
+      )})}    
     </ul>
+    
+
   
    
   )

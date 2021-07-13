@@ -23,9 +23,10 @@ class LogInModal extends Component {
 render() {
     return (
         <div>
-            <button onClick={this.onClickButton}>Sign-in</button>
+
+            <button onClick={this.onClickButton} style={{width:'90%', backgroundColor:'turquoise'}}>Log In</button>
             <Modal open={this.state.openModal} onClose={this.onCloseModal}>
-                <h1>Sign-in</h1>
+                <h1>Log In</h1>
                 <form action="/login" method="post">
 
                     <div>

@@ -8,8 +8,11 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.0.2",
+<<<<<<< HEAD
     "dotenv": "^10.0.0",
     "google-maps-react": "^2.0.6",
+=======
+>>>>>>> 048cc4d4fd3e162ee9d701407b177bfea7a1e741
     "passport-local": "^1.0.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
