@@ -4,7 +4,7 @@ import "./Card.css";
 
 function TodoCard(props) {
   return (
-    <NavLink exact to={"/" + props.link}>
+    <NavLink to= {'/' + props.link}>
     <button className="card">
       <div className="content">
         {/* <ul>
