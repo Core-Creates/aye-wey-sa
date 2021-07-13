@@ -26,26 +26,14 @@ class Hiking extends Component {
 
     return (
 
-      <div id = "hiking">
-      {/* this is the hiking page */}
+      <div id="hiking">
 
-      {/* <GoogleApiWrapper></GoogleApiWrapper>
-      <Map
-          google={window.google}
-          zoom={12}
-          style={style}
-          initialCenter={{ lat: 29.4241, lng: -98.4936}}
-         
-        >
-         
-        </Map>
-       */}
 
-      
-      <iframe width="700px" height="400px" src="https://opendata-cosagis.opendata.arcgis.com/datasets/ed00038f9f5c44988eb38a0bafd9a227_0" frameBorder="0"></iframe>
-    </div>
 
-            <Wrapper>
+        <iframe width="700px" height="400px" src="https://opendata-cosagis.opendata.arcgis.com/datasets/ed00038f9f5c44988eb38a0bafd9a227_0" frameBorder="0"></iframe>
+
+
+        <Wrapper>
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
@@ -55,8 +43,9 @@ class Hiking extends Component {
             />
           ))}
 
-        <div id="hiking">this is the hiking page</div>
+          <div id="hiking">this is the hiking page</div>
         </Wrapper>
+      </div>
 
     );
 

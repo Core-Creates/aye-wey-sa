@@ -1,7 +1,6 @@
 import { render } from "@testing-library/react";
-import ReactTyped, { Component } from "react";
 import React, { Component } from 'react';
-import { GoogleMap, LoadScript } from '@react-google-maps/api';
+
 
 class Biking extends Component {
   state{
@@ -10,20 +9,23 @@ class Biking extends Component {
 render() {
   return (
     <div id="biking">
-      this is the biking page
+      <h1>Biking Trails, Lanes, and Paths</h1>
+      <iframe width="700" height="400"
+        src="https://opendata-cosagis.opendata.arcgis.com/datasets/55234cc46b954f69a659711b240bdf59_0"
+        frameBorder="0"></iframe>
 
-      <LoadScript
-        googleMapsApiKey={process.env.GOOLE_API_KEY}
-      >
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={10}
-        >
-          { /* Child components, such as markers, info windows, etc. */}
-          <></>
-        </GoogleMap>
-      </LoadScript>
+      <Wrapper>
+        {this.state.projects.map(project => (
+          <TodoCard
+            id={project.id}
+            title={project.title}
+            image={project.image}
+            author={project.author}
+          />
+        ))}
+      </Wrapper>
+
+
     </div>
 
 
