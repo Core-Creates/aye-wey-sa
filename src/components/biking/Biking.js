@@ -1,30 +1,34 @@
 import { render } from "@testing-library/react";
-import ReactTyped, {Component} from "react";
+import ReactTyped, { Component } from "react";
+import React, { Component } from 'react';
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
 class Biking extends Component {
-    state{
-        // to do
-    }
-    render() {
+  state{
+  // to do
+}
+render() {
+  return (
+    <div id="biking">
+      this is the biking page
 
-        
-    //   const google = window.google;
+      <LoadScript
+        googleMapsApiKey={process.env.GOOLE_API_KEY}
+      >
+        <GoogleMap
+          mapContainerStyle={containerStyle}
+          center={center}
+          zoom={10}
+        >
+          { /* Child components, such as markers, info windows, etc. */}
+          <></>
+        </GoogleMap>
+      </LoadScript>
+    </div>
 
-    //   function initMap() {
-    //     const map = new google.maps.Map(document.getElementById("map"), {
-    //       zoom: 14,
-    //       center: { lat: 42.3726399, lng: -71.1096528 },
-    //     });
-    //     const bikeLayer = new google.maps.BicyclingLayer();
-    //     bikeLayer.setMap(map);
-      }
-        return (
-            <div id="biking">
-            this is the biking page
-          </div>
 
-        );
-    }
+  );
+}
 }
 
 export default Biking;

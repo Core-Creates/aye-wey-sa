@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Map, GoogleApiWrapper } from 'google-maps-react';
+import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 
 // import GoogleMapReact from 'google-map-react';
 // import { GoogleMap, LoadScript } from 'react-google-maps';
@@ -20,6 +20,12 @@ class Hiking extends Component {
         map: Map,
       });
 
+      const style = {
+        margin: '20px',
+        width: '55%',
+        height: '55%'
+      }
+
     return (
 
       <div id = "hiking">
@@ -30,10 +36,13 @@ class Hiking extends Component {
       <Map
           google={window.google}
           zoom={12}
-          // style={mapStyles}
+          style={style}
           initialCenter={{ lat: 29.4241, lng: -98.4936}}
-        />
-
+         
+        >
+          <Marker src="https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/SPark_Sites/FeatureServer/0"></Marker>
+        </Map>
+      <iframe width="700" height="400" src=" https://services.arcgis.com/g1fRTDLeMgspWrYp/arcgis/rest/services/SPark_Sites/FeatureServer/0" frameBorder="0"></iframe>
     </div>
 
     );
