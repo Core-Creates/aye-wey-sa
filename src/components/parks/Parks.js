@@ -7,10 +7,10 @@ class Parks extends Component {
     state= {
     //   todos
     };
-  
+    
     render() {
       return (
-        <iframe width="700" height="400" src="https://data.sanantonio.gov/dataset/park-trails1/resource/6d75f6d1-9ff0-48f1-b11b-4904ecebbcfa/view/b5ed02cb-6541-4065-83c3-36da41083583" frameBorder="0"></iframe>
+        <iframe width="700" height="400" src=" https://opendata-cosagis.opendata.arcgis.com/datasets/1c9fc1749bfb4222ab8a5d1f9728ca60_0.geojson?outSR=%7B%22latestWkid%22%3A2278%2C%22wkid%22%3A102740%7D" frameBorder="0"></iframe>
       );
     }
   }
