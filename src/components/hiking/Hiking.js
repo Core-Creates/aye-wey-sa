@@ -53,4 +53,5 @@ class Hiking extends Component {
   }
 }
 
+
 export default Hiking;

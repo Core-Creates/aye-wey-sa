@@ -11,7 +11,7 @@ function AddCard(props) {
                 <img alt={props.image} src='https://www.rd.com/wp-content/uploads/2019/09/GettyImages-621924830-scaled.jpg?resize=200,'></img>
             </div>
             <div className="addDetails">
-                <p>chris</p>
+                <p></p>
             </div>
             </div>
             <div style= {{margin: '10px'}}>
@@ -19,7 +19,7 @@ function AddCard(props) {
                 <img alt={props.image} src='https://www.rd.com/wp-content/uploads/2019/09/GettyImages-621924830-scaled.jpg?resize=200,'></img>
             </div>
             <div className="addDetails-2">
-                <p>chris</p>
+                <p></p>
             </div>
             </div>
             <div style= {{margin: '10px'}}>

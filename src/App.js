@@ -12,14 +12,13 @@ import Libraries from "./components/libraries/Libraries";
 import Art_Galleries from "./components/art_galleries/Art";
 import Hiking from "./components/hiking/Hiking";
 import Theater from "./components/theater/Theater";
-import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractionss";
+import Tourist_Attractions from "./components/tourist_attractions/Tourist_Attractions";
 import Entertainment from "./components/entertainment_venues/Entertainment";
 import Special_Events from "./components/special_events/Special_Events";
 // import ReactDOM from 'react-dom';
 import Particles from 'react-particles-js';
 // import Modal from './Component/modal/Modal'; 
 import ADD_SPACE from './components/add_Space/Add_Space'; 
-// import add from './add.json';
 import Header from './components/header/Header';
 
 

@@ -19,9 +19,9 @@ class Home extends Component {
           <Wrapper>
           {this.state.projects.map(project => (
             <TodoCard
-              id={project.id}
-              title={project.title}
               image={project.image}
+              link={project.link}
+              title={project.title}
               snippet={project.snippet}
             />
           ))}
