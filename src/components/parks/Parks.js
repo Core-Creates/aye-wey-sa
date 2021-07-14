@@ -26,6 +26,7 @@ class Parks extends Component {
               author={project.author}
             />
           ))}
+          
         </Wrapper>
       </div>
     );

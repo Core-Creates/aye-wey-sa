@@ -35,14 +35,15 @@ onClose = props => {
     render() {
 
       const style = {
-        width: '700px',
-        height:'400px', 
-        frameBorder: '0px'
+        width: '45%',
+        height:'40%', 
+        frameBorder: '0px',
+        
       }
       
       return (
- <div id= 'container'>   
-    <div classname='map'>   
+ <div id= 'container' >    
+  <div id="new" > 
       <Map
         google={this.props.google}
         zoom={10}
@@ -87,20 +88,20 @@ onClose = props => {
           </div>
         </InfoWindow>
           
-      </Map>   
-         </div>
+      </Map>
+      </div>   
          <div>
-      <Wrapper>
+      {/* <Wrapper>
           {this.state.projects.map(project => (
             <TodoCard
-              id={project.id}
+              snippet={project.snippet}
               title={project.title}
               image={project.image}
-              author={project.author}
+              Link={project.Link}
             />
           ))}
           
-        </Wrapper>
+        </Wrapper> */}
         </div>
       </div>
       );

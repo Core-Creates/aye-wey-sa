@@ -10,9 +10,7 @@ import projects from '../add.json';
 
 
 class Entertainment_Venues extends Component {
-  state{
-    projects
-  };
+
 
   render() {
     const libraries = ["places"];
