@@ -32,6 +32,10 @@ class SignUpModal extends Component {
                         <input type="text" name="username" />
                     </div>
                     <div>
+                        <label>Email:</label>
+                        <input type="text" name="email" />
+                    </div>
+                    <div>
                         <label>Password:</label>
                         <input type="password" name="password" />
                     </div>
