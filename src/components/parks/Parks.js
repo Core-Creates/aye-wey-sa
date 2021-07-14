@@ -15,7 +15,7 @@ class Parks extends Component {
     return (
       <div>
         <iframe width="700" height="400"
-          src="https://opendata-cosagis.opendata.arcgis.com/datasets/1c9fc1749bfb4222ab8a5d1f9728ca60_0" frameBorder="0"></iframe>
+          src="https://opendata-cosagis.opendata.arcgis.com/datasets/29fd105cac45483f99058b1a5e2a07ac_0" frameBorder="0"></iframe>
 
         <Wrapper>
           {this.state.projects.map(project => (
