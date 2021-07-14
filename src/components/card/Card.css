@@ -1,0 +1,6 @@
+.card {
+    background-color: aqua;
+    /* ,url() no-repeat; */
+    width:100%;
+    margin: 5px;
+}

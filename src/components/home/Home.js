@@ -2,21 +2,32 @@ import React, {Component} from 'react';
 // import { Carousel } from 'react-bootstrap';
 // import { Carousel } from 'react-bootstrap';
 // import Navbar from '../navbar/Navbar';
-// import TodoCard from '../card/Card';
-// import Wrapper from '../wrapper/Wrapper';
+import TodoCard from '../card/Card';
+import Wrapper from '../wrapper/Wrapper';
 import Carousel from '../carousel/Carousel';
-// import todos from '../footer/footer'
+import projects from '../add.json'
 
 class Home extends Component {
-    // state= {
-    //   todos
-    // };
+    state= {
+      projects
+    };
   
     render() {
       return (
         <div className='carousel'>
           <Carousel></Carousel>
+          <Wrapper>
+          {this.state.projects.map(project => (
+            <TodoCard
+              image={project.image}
+              link={project.link}
+              title={project.title}
+              snippet={project.snippet}
+            />
+          ))}
+          </Wrapper>
         </div>
+      
 
       );
     }

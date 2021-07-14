@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Modal } from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import './modal.css';
+import { Link } from "react-router-dom";
+// import axios from 'axios';
 
 
 class LogInModal extends Component {
@@ -23,9 +25,10 @@ class LogInModal extends Component {
 render() {
     return (
         <div>
-            <button onClick={this.onClickButton}>Sign-in</button>
-            <Modal open={this.state.openModal} onClose={this.onCloseModal}>
-                <h1>Sign-in</h1>
+
+            <button onClick={this.onClickButton} style={{width:'90%', backgroundColor:'turquoise'}}>Log In</button>
+            <Modal open={this.state.openModal} onClose={this.onCloseModal} class="fullModal">
+                <h1>Log In</h1>
                 <form action="/login" method="post">
 
                     <div>
