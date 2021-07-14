@@ -36,7 +36,7 @@ class Hiking extends Component {
         <Wrapper>
           {this.state.projects.map(project => (
             <TodoCard
-              link={project.link}
+              id={project.id}
               title={project.title}
               image={project.image}
               author={project.author}
@@ -52,5 +52,6 @@ class Hiking extends Component {
 
   }
 }
+
 
 export default Hiking;

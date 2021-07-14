@@ -41,19 +41,6 @@ class Entertainment extends Component {
         
         <div>
         <Wrapper>
-<<<<<<< HEAD
-        {this.state.projects.map(project => (
-          <TodoCard
-            link={project.link}
-            title={project.title}
-            image={project.image}
-            author={project.author}
-          />
-        ))}
-        <div>this is the entertainment page</div>
-</Wrapper>
-      );
-=======
           {this.state.projects.map(project => (
             <TodoCard
               id={project.id}
@@ -69,7 +56,6 @@ class Entertainment extends Component {
 
         </div>
         );
->>>>>>> main
     }
   }
 
