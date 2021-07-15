@@ -54,7 +54,7 @@ function App() {
         <div style={{flexGrow: 1}}>
       <Navbar/>
       </div>
-      <div style={{flexGrow: 3, margin:(20)}}>
+      <div style={{flexGrow: 5, margin:(20)}}>
       <Route exact path="/" component={Home}/>
       <Route exact path="/Parks" component={Parks}/>
       <Route exact path="/Historical" component={Historical}/>
@@ -68,7 +68,7 @@ function App() {
       <Route exact path="/Special_Events" component={Special_Events}/>
       <Route exact path="/Home" component={Home}/>
       </div>
-      <div style={{flexGrow: 1}}>
+      <div style={{flexGrow: 0}}>
       <ADD_SPACE/>
       </div>
       </div>

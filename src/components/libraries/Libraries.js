@@ -36,7 +36,7 @@ onClose = props => {
 
       const style = {
         width: '45%',
-        height:'40%', 
+        height:'80%', 
         frameBorder: '0px',
         
       }
