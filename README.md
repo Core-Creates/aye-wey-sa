@@ -1,4 +1,4 @@
-# AYE WEY SA
+# AYE WAY SA
 <br>
 An application built to help users find things to do in San Antonio. Users will be able to see featured events on the home page, and navigate from there to narrow the users search to Parks, Museums, Libraries, Art Galleries, Historical Sites, Hiking/Bike Trails, Theaters, and Restaurants.  On each of these pages users will be able to see lists of things to do specific to the page category.  Users can View the entire site without any form of authentification, users will also be able to edit site information, if they have set up authentification via username and password.
 <br>
